@@ -22,7 +22,7 @@ object frmMain: TfrmMain
     TargetCompatibleBrowserVersion = '117.0.2045.28'
     UserDataFolder = '%LOCALAPPDATA%\bds.exe.WebView2'
     OnCreateWebViewCompleted = EdgeBrowser1CreateWebViewCompleted
-    OnExecuteScript = EdgeBrowser1ExecuteScript
+    OnWebMessageReceived = EdgeBrowser1WebMessageReceived
   end
   object ToolBar1: TToolBar
     Left = 0
